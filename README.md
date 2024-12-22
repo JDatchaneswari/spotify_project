@@ -181,7 +181,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 	from spotify
 	order by sum(likes)over(order by views)desc;
     ```
-
+---
 Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
 
 ---
