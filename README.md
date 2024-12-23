@@ -175,14 +175,14 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 	where liveness>0 and (energy/liveness) >1.2;
    ```
 15. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
-   ```sql
+    ```sql
     select track,
 	sum(likes)over(order by views)as cum_sum_likes
 	from spotify
 	order by sum(likes)over(order by views)desc;
     ```
----
-Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
+
+-- Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
 
 ---
 
